@@ -1,0 +1,9 @@
+@import  url(https://fonts.googleapis.com/css?family=Karla);
+@import "custom";
+@import "bootstrap";
+@import "ideas";
+
+h1 {color: $primary;}
+.container {
+	padding-top: 60px;
+}
