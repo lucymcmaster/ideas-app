@@ -14,6 +14,7 @@
   <tbody>
     <% @comments.each do |comment| %>
       <tr>
+        <td class= "name-column">
         <td><%= comment.description %></td>
         <td><%= comment.idea %></td>
         <td><%= link_to 'Show', comment %></td>
